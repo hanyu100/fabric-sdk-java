@@ -1,0 +1,585 @@
+.common-top-wxsp strong {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.common-top-wxsp strong i,.common-top-wxsp strong b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.i-fb,.win-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.i-fb-main,.win-mask .win {
+    position: absolute;
+    top: 50%;
+    left: 50%
+}
+
+html,.screen {
+    position: relative;
+    width: 100%
+}
+
+html,.screen {
+    background-color: #fbfbfb
+}
+
+.clearfix,.common-top-left,.common-top-right,.common-top-nav {
+    *zoom: 1
+}
+
+.clearfix:before,.common-top-left:before,.common-top-right:before,.common-top-nav:before {
+    content: "";
+    display: table
+}
+
+.clearfix:after,.common-top-left:after,.common-top-right:after,.common-top-nav:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.img,.img-w,.img-h,.img-f {
+    position: relative;
+    display: block
+}
+
+.img-w {
+    width: 100%
+}
+
+.img-h {
+    height: 100%
+}
+
+.img-f {
+    width: 100%;
+    height: 100%
+}
+
+.i-fb {
+    line-height: 1;
+    z-index: 200;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#99FFFFFF', endColorstr='#99FFFFFF');
+    background: rgba(255,255,255,0.6)
+}
+
+.i-fb-main {
+    width: 320px;
+    height: 390px;
+    margin-top: -220px;
+    margin-left: -190px;
+    padding: 20px 30px 30px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background: #fff;
+    overflow: hidden;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #e6e6e6;
+    -webkit-box-shadow: 0 0 20px 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.3)
+}
+
+.i-fb-main .i-fb-title {
+    font-size: 20px;
+    line-height: 20px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 35px
+}
+
+.i-fb-main .i-fb-icons {
+    overflow: hidden;
+    width: 321px;
+    margin-bottom: 25px
+}
+
+.i-fb-main .i-fb-icons .i-fb-icon-0 .i-fb-icon0 {
+    width: 69px;
+    height: 61px;
+    margin: 0 auto 10px;
+    background: url("http://news.iciba.com/static/images/home_feedback_icons.png") no-repeat
+}
+
+.i-fb-main .i-fb-icons .i-fb-icon-0:hover .i-fb-icon0 {
+    background-position: 0 -61px
+}
+
+.i-fb-main .i-fb-icons .i-fb-icon-0.active .i-fb-icon0 {
+    background-position: -1px -124px
+}
+
+.i-fb-main .i-fb-icons .i-fb-icon-1:hover .i-fb-icon1 {
+    background-position: -71px -61px
+}
+
+.i-fb-main .i-fb-icons .i-fb-icon-1.active .i-fb-icon1 {
+    background-position: -71px -124px
+}
+
+.i-fb-main .i-fb-icons .i-fb-icon-1 .i-fb-icon1 {
+    width: 69px;
+    height: 61px;
+    margin: 0 auto 10px;
+    background: url("http://news.iciba.com/static/images/home_feedback_icons.png") -71px 0 no-repeat
+}
+
+.i-fb-main .i-fb-icons .i-fb-icon-2:hover .i-fb-icon2 {
+    background-position: -140px -61px
+}
+
+.i-fb-main .i-fb-icons .i-fb-icon-2.active .i-fb-icon2 {
+    background-position: -140px -124px
+}
+
+.i-fb-main .i-fb-icons .i-fb-icon-2 .i-fb-icon2 {
+    width: 69px;
+    height: 61px;
+    margin: 0 auto 10px;
+    background: url("http://news.iciba.com/static/images/home_feedback_icons.png") -140px 0 no-repeat
+}
+
+.i-fb-main .i-fb-ctc {
+    margin-bottom: 20px
+}
+
+.i-fb-main .i-fb-ctc .i-fb-ct-phone {
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid #ddd
+}
+
+.i-fb-main .i-fb-ctc .i-fb-ct-phone:focus {
+    border: 1px solid #1596f5
+}
+
+.i-fb-main .i-fb-ctc .i-fb-ctc-title {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 3px
+}
+
+.i-fb-main .i-fb-msg {
+    margin-bottom: 13px
+}
+
+.i-fb-main .i-fb-msg .i-fb-msg-text {
+    height: 70px;
+    resize: none;
+    font-size: 14px;
+    border: 1px solid #ddd
+}
+
+.i-fb-main .i-fb-msg .i-fb-msg-text:focus {
+    border: 1px solid #1596f5
+}
+
+.i-fb-main .i-fb-msg .i-fb-msg-title {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 3px
+}
+
+.i-fb-main .i-fb-commit {
+    width: 320px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    -webkit-border-radius: 2px;
+    border-radius: 2px
+}
+
+.i-fb-main .i-fb-commit.disable {
+    background: #ddd
+}
+
+.i-fb-main .i-fb-commit.enable {
+    background: #5cb8f9;
+    cursor: pointer
+}
+
+.i-fb-main .i-fb-commit.enable:hover {
+    background: #1596f5
+}
+
+.i-fb-main .i-fb-success {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 320px;
+    text-align: center;
+    background: #fff;
+    height: 365px;
+    margin-left: -160px
+}
+
+.i-fb-main .i-fb-success .i-fb-s-check {
+    width: 59px;
+    height: 44px;
+    margin: 80px auto 20px;
+    background: url("http://news.iciba.com/static/images/home_feedback_icons.png") -56px -195px no-repeat
+}
+
+.i-fb-main .i-fb-success .i-fb-s-text {
+    font-size: 18px;
+    color: #333;
+    line-height: 30px
+}
+
+.i-fb-main .i-fb-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 14px;
+    height: 14px;
+    background: url("http://news.iciba.com/static/images/home_feedback_icons.png") -10px -193px no-repeat;
+    cursor: pointer
+}
+
+.i-fb-main .i-fb-close:hover {
+    background-position: -35px -193px
+}
+
+:root .i-fb {
+    -webkit-filter: none;
+    filter: none
+}
+
+.i-fb-main .i-fb-icons .i-fb-icon-0,.i-fb-main .i-fb-icons .i-fb-icon-1,.i-fb-main .i-fb-icons .i-fb-icon-2 {
+    float: left;
+    width: 107px;
+    height: 90px;
+    text-align: center;
+    cursor: pointer
+}
+
+.i-fb-main .i-fb-icons .i-fb-icon-0 .i-fb-icon-text,.i-fb-main .i-fb-icons .i-fb-icon-1 .i-fb-icon-text,.i-fb-main .i-fb-icons .i-fb-icon-2 .i-fb-icon-text {
+    color: #333;
+    font-size: 14px
+}
+
+.i-fb-main .i-fb-icons .i-fb-icon-0:hover .i-fb-icon-text,.i-fb-main .i-fb-icons .i-fb-icon-1:hover .i-fb-icon-text,.i-fb-main .i-fb-icons .i-fb-icon-2:hover .i-fb-icon-text {
+    color: #5cb8f9
+}
+
+.i-fb-main .i-fb-icons .i-fb-icon-0.active .i-fb-icon-text,.i-fb-main .i-fb-icons .i-fb-icon-1.active .i-fb-icon-text,.i-fb-main .i-fb-icons .i-fb-icon-2.active .i-fb-icon-text {
+    color: #1596f5
+}
+
+.i-fb-main .i-fb-ctc .i-fb-ct-phone,.i-fb-main .i-fb-msg .i-fb-msg-text {
+    width: 320px;
+    padding: 13px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    font: 14px "microsoft yahei", simhei, arial, sans-serif;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0
+}
+
+.common-top {
+    height: 50px;
+    line-height: 50px;
+    background-color: #3f464e;
+    position: relative;
+    min-width: 1000px;
+    z-index: 99;
+    font-size: 14px
+}
+
+.common-top a,.common-top span {
+    color: #b0b2b5;
+    -webkit-transition: .15s;
+    transition: .15s
+}
+
+.common-top a:hover,.common-top span:hover {
+    color: #fff
+}
+
+.common-top-blue {
+    background-color: transparent
+}
+
+.common-top-blue a,.common-top-blue span {
+    color: #fff;
+    -webkit-transition: .15s;
+    transition: .15s
+}
+
+.common-top-blue a:hover,.common-top-blue span:hover {
+    color: rgba(255,255,255,0.75)
+}
+
+.common-top-fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999
+}
+
+.common-top-left {
+    float: left
+}
+
+.common-top-right {
+    float: right;
+    position: relative
+}
+
+.common-top-right-item {
+    float: left;
+    display: block;
+    font-size: 12px;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.common-top-blue .common-top-right-item {
+    color: #fff
+}
+
+.common-top-right-separator {
+    float: left;
+    display: block;
+    border-left: 1px solid rgba(255,255,255,0.5);
+    height: 10px;
+    margin-left: 3px;
+    margin-right: 14px;
+    margin-top: 20px
+}
+
+/*.common-top-logo {*/
+    /*float: left;*/
+    /*display: block;*/
+    /*margin-top: 17px;*/
+    /*margin-left: 22px;*/
+    /*margin-right: 30px;*/
+    /*!*background-image: url("http://cdn.iciba.com/www/top/logo.png");*!*/
+    /*width: 50px;*/
+    /*height: 16px*/
+/*}*/
+.common-top-logo{
+    float:left;
+    display:block;
+    margin-top: 0px;
+    margin-left:22px;
+    margin-right:30px;
+    /*background-image:url("http://cdn.iciba.com/www/top/logo.png");*/
+    width: 166px;
+    height:16px;
+    font-size: 16px;
+    font-style: inherit;
+}
+.common-top-blue .common-top-logo {
+    background-image: url("http://cdn.iciba.com/www/top/logo-white.png");
+    width: 50px;
+    height: 16px
+}
+
+.common-top-nav {
+    float: left
+}
+
+.common-top-nav-item {
+    float: left;
+    display: block;
+    padding: 0 6px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin-right: 10px;
+    height: 50px;
+    color: #9fa3a7;
+    text-decoration: none
+}
+
+.common-top-blue .common-top-nav-item {
+    color: #fff
+}
+
+.common-top-nav-item.common-top-nav-item-on {
+    border-top: 4px solid #4bacf3;
+    line-height: 42px;
+    height: 46px;
+    color: #fff
+}
+
+.common-top-nav-hot {
+    float: left;
+    margin-left: -11px;
+    margin-top: 6px;
+    display: block;
+    background-image: url("http://cdn.iciba.com/www/top/hot.png");
+    width: 11px;
+    height: 11px
+}
+
+.common-top-user {
+    float: left;
+    margin-top: 13px;
+    margin-left: 27px;
+    margin-right: 18px
+}
+
+.common-top-user img.u-profile {
+    display: block;
+    width: 26px;
+    height: 26px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.common-top-holder {
+    height: 50px
+}
+
+.common-top-wxsp {
+    position: absolute;
+    top: 13px;
+    left: -38px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer
+}
+
+.common-top-wxsp strong i {
+    opacity: 1;
+    -webkit-transition: .4s;
+    transition: .4s;
+    background-image: url("http://cdn.iciba.com/www/top/wxsp2.png")
+}
+
+.common-top-wxsp strong b {
+    opacity: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+    background-image: url("http://cdn.iciba.com/www/top/wxsp2-hover.png")
+}
+
+.common-top-wxsp-all strong i {
+    opacity: 0.5
+}
+
+.common-top-wxsp img {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    width: 128px;
+    height: 174px;
+    margin-left: -64px;
+    opacity: 0;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: .3s;
+    transition: .3s
+}
+
+.common-top-wxsp:hover i {
+    opacity: 0
+}
+
+.common-top-wxsp:hover b {
+    opacity: 1
+}
+
+.common-top-wxsp:hover img {
+    opacity: 1;
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1)
+}
+
+.common-top .u-option {
+    display: none;
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: 70px
+}
+
+.common-top .u-option ul {
+    background: #6a737e;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.common-top .u-option .u-triangle {
+    position: absolute;
+    top: -7px;
+    left: 33px;
+    width: 0;
+    border: 6px solid transparent;
+    border-bottom: 7px solid #6a737e;
+    border-top: 0
+}
+
+.common-top .u-option li {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px
+}
+
+.common-top .u-option li.u-register {
+    border-bottom: 1px solid #76818d
+}
+
+.common-top .u-option li a {
+    color: #fff;
+    font-size: 100%;
+    text-decoration: none
+}
+
+.win-mask {
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#99FFFFFF', endColorstr='#99FFFFFF');
+    background: rgba(255,255,255,0.7);
+    z-index: 10000
+}
+
+.win-mask .win {
+    margin-left: -186px;
+    width: 372px;
+    -webkit-box-shadow: 0 0 20px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.2);
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    visibility: hidden
+}
+
+.win-mask .win-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: url(http://my.iciba.com/static/images/i_login_icons.png) -56px -40px no-repeat;
+    cursor: pointer;
+    vertical-align: middle
+}
+
+.win-mask .win-close:hover {
+    background-position: -76px -40px
+}
+
